@@ -233,7 +233,7 @@ void loop(){
   info_pub.publish( &info );
 
 
-  lasttimer1 = lasttimer;
+  //lasttimer1 = lasttimer;
   nh.spinOnce();
   delay(1);
 }
